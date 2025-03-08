@@ -1,0 +1,24 @@
+{
+	"name": "Translate with Kagi",
+	"description": "Add context menu for Kagi Traslation",
+	"version": "0.2",
+	"manifest_version": 3,
+	"browser_specific_settings":{
+		"gecko": {
+			"id": "translate-with-kagi@nguyenthanhnguyen.com",
+			"strict_min_version": "109.0"
+		}
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"permissions": [
+		"activeTab",
+		"menus"
+	],
+  "icons": {
+    "32": "icons/favicon-32x32.png"
+  }
+}
